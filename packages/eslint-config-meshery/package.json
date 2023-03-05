@@ -10,6 +10,6 @@
     "eslint-config-turbo": "latest"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "restricted"
   }
 }
