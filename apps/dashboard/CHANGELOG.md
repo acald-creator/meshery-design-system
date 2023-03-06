@@ -1,5 +1,12 @@
 # dashboard
 
+## 0.1.2
+
+### Patch Changes
+
+- Updated dependencies [a6c2550]
+  - @meshery/core@0.2.0
+
 ## 0.1.1
 
 ### Patch Changes
