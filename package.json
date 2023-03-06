@@ -14,13 +14,13 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.25.2",
+    "@changesets/cli": "^2.26.0",
     "@commitlint/cli": "^17.4.4",
     "@commitlint/config-conventional": "^17.4.4",
-    "eslint": "^8.29.0",
-    "eslint-config-meshery": "workspace:0.0.0",
+    "eslint": "^8.35.0",
+    "eslint-config-meshery": "workspace:*",
     "husky": "^8.0.3",
-    "prettier": "^2.8.0",
+    "prettier": "^2.8.4",
     "turbo": "latest"
   },
   "packageManager": "pnpm@7.15.0"

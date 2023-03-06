@@ -4,13 +4,13 @@ importers:
 
   .:
     specifiers:
-      '@changesets/cli': ^2.25.2
+      '@changesets/cli': ^2.26.0
       '@commitlint/cli': ^17.4.4
       '@commitlint/config-conventional': ^17.4.4
-      eslint: ^8.29.0
-      eslint-config-meshery: workspace:0.0.0
+      eslint: ^8.35.0
+      eslint-config-meshery: workspace:*
       husky: ^8.0.3
-      prettier: ^2.8.0
+      prettier: ^2.8.4
       turbo: latest
     devDependencies:
       '@changesets/cli': 2.26.0
@@ -24,12 +24,12 @@ importers:
 
   apps/dashboard:
     specifiers:
-      '@meshery/core': workspace:^0.0.1
-      '@meshery/tsconfig': workspace:^0.0.0
+      '@meshery/core': workspace:^0.2.0
+      '@meshery/tsconfig': workspace:^0.1.0
       '@types/node': 18.14.6
       '@types/react': ^18.0.28
       '@types/react-dom': ^18.0.11
-      eslint-config-meshery: workspace:^0.0.0
+      eslint-config-meshery: workspace:*
       next: 13.2.3
       react: 18.2.0
       react-dom: ^18.2.0
@@ -49,8 +49,8 @@ importers:
 
   apps/docs:
     specifiers:
-      '@meshery/core': workspace:0.0.1
-      '@meshery/tsconfig': workspace:0.0.0
+      '@meshery/core': workspace:0.2.0
+      '@meshery/tsconfig': workspace:0.1.0
       '@storybook/addon-actions': ^6.5.14
       '@storybook/addon-docs': ^6.5.14
       '@storybook/addon-essentials': ^6.5.14
@@ -58,7 +58,7 @@ importers:
       '@storybook/builder-vite': ^0.1.41
       '@storybook/react': ^6.5.14
       '@vitejs/plugin-react': ^1.3.2
-      eslint-config-meshery: workspace:0.0.0
+      eslint-config-meshery: '*'
       react: ^18.2.0
       react-dom: ^18.2.0
       serve: ^13.0.4

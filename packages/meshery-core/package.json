@@ -27,7 +27,7 @@
     "typescript": "^4.9.5"
   },
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
