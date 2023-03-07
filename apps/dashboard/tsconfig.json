@@ -2,7 +2,9 @@
   "extends": "@meshery/tsconfig/nextjs.json",
   "compilerOptions": {
     "paths": {
-      "@/*": ["./*"]
+			"@/*": ["./*"],
+			"@/components/*": ["./components/*"],
+			"@/styles/*": ["./styles/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

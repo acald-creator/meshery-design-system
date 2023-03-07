@@ -6,13 +6,22 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint-fix": "next lint --fix"
   },
   "dependencies": {
+    "@emotion/cache": "^11.10.5",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
     "@meshery/core": "workspace:^0.2.0",
+    "@mui/lab": "5.0.0-alpha.122",
+    "@mui/material": "^5.11.11",
+    "@mui/x-data-grid": "^6.0.0",
+    "jotai": "^2.0.3",
     "next": "13.2.3",
     "react": "18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-select": "^5.7.0"
   },
   "devDependencies": {
     "@meshery/tsconfig": "workspace:^0.1.0",
